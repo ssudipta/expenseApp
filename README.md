@@ -15,8 +15,13 @@ npm install
 
 ## Deployment
 
-```python
+```bash
 npm run dev-server
+```
+For running testing server in watch mode
+
+```bash
+npm test -- --watch
 ```
 
 ## Contributing
