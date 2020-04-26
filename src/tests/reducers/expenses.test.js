@@ -72,4 +72,3 @@ test('should not edit expense by id if not found', () => {
     const state = expenseReducer(expenses, action);
     expect(state).toEqual(expenses);  
 });
-
